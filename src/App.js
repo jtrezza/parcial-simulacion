@@ -241,13 +241,13 @@ function App() {
         <p className="step-title same-line">
           C0 = 31
         </p>
-        <p className="step-title same-line">
+        <p className="step-title same-line table-container">
           <img src={u0Img} alt="AVG formula"/><span className="value">{(2*n-1)/3}</span>
         </p>
-        <p className="step-title same-line">
+        <p className="step-title same-line table-container">
           <img src={o0Img} alt="AVG formula"/><span className="value">{(16*n-29)/90}</span>
         </p>
-        <p className="step-title same-line">
+        <p className="step-title same-line table-container">
           <img src={z0Img} alt="AVG formula"/><span className="value">{Math.abs((31-33)/Math.sqrt((16*n-29)/90))}</span>
         </p>
         <p className="step-title same-line">
